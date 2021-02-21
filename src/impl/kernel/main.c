@@ -1,0 +1,8 @@
+#include "print.h"
+
+void kernel_main() {
+    print_clear();
+    print_set_color(PRINT_COLOR_WHITE, PRINT_COLOR_BLACK);
+    print_str("Rachel OS v. 0.1 Kernel");
+    print_str("x86-64 Kernel - Compiled 02/20/2021");
+}
